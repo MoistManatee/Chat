@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    background: linear-gradient(45deg, #3498db, #9b59b6);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header, nav, footer {
+    background: linear-gradient(45deg, #2c3e50, #34495e);
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: #ecf0f1;
+    margin: 0 1em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#messages, #form {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#form {
+    display: flex;
+    margin-top: 20px;
+}
+
+#input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+button {
+    padding: 15px 20px;
+    background: linear-gradient(45deg, #3498db, #2980b9);
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #2980b9, #2070a0);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(45deg, #2c3e50, #34495e);
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em 0;
+}

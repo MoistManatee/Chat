@@ -1,1 +1,24 @@
-{"name":"socket","version":"1.0.0","description":"Creer une page web avec le module de chat-live","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"author":"That one guy Anto1","license":"ISC","dependencies":{"express":"^4.18.2","express-session":"^1.17.3","passport":"^0.6.0","passport-local":"^1.0.0","socket.io":"^4.7.2","ws":"^8.14.2"}}
+{
+  "name": "chat-room-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitoutofbox/chat-room-nodejs.git"
+  },
+  "author": "CodeStudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitoutofbox/chat-room-nodejs/issues"
+  },
+  "homepage": "https://github.com/gitoutofbox/chat-room-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^3.1.0"
+  }
+}
